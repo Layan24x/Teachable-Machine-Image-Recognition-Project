@@ -124,8 +124,6 @@ All class probabilities:
 - Dog: 2.65%
 ```
 
-Take a screenshot of your real output for the submission.
-
 ## 6. Evaluate the Model
 
 Put new test images into folders whose names exactly match the class names in `labels.txt`.
@@ -152,25 +150,6 @@ python evaluate.py
 
 The script reports accuracy for each class and overall accuracy.
 
-## 7. Files to Submit to GitHub
-
-Your repository should contain:
-
-```text
-teachable-machine-project/
-├── models/
-│   ├── keras_model.h5
-│   └── labels.txt
-├── test_images/
-│   └── ...
-├── predict.py
-├── evaluate.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-Also submit a screenshot showing the Python prediction output.
 
 ## Important
 
